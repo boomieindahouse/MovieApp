@@ -7,12 +7,11 @@ import { API_KEY, BASE_URL } from '../utils/constants';
 import globalStyles from '../globalStyles';
 
 const GenreMovieScreen = ({ route, navigation }) => {
-  const { genreId, genreName } = route.params; // รับค่า genreId จาก params
+  const { genreId, genreName } = route.params;
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Fetch movies based on selected genre
   useEffect(() => {
     const url = `${BASE_URL}/discover/movie?api_key=${API_KEY}&with_genres=${genreId}`;
     axios
@@ -30,7 +29,7 @@ const GenreMovieScreen = ({ route, navigation }) => {
   if (isLoading) {
     return (
       <View style={styles.centered}>
-        <ActivityIndicator size="large" color="#0000ff" />
+        <ActivityIndicator size="large" color="##B95CF4" />
       </View>
     );
   }
