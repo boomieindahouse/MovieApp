@@ -4,6 +4,7 @@ import axios from 'axios';
 import MovieCard from '../components/MovieCard';
 import { styles } from '../styles/styles';
 import { API_KEY, BASE_URL } from '../utils/constants';
+import globalStyles from '../globalStyles';
 
 const HomeScreen = () => {
   const [popularMovies, setPopularMovies] = useState([]);
@@ -42,7 +43,7 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Popular Movies</Text>
+      <Text style={globalStyles.headerText}>Popular Movies</Text>
       <FlatList
         data={popularMovies}
         renderItem={({ item }) => <MovieCard movie={item} />}
