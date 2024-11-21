@@ -9,7 +9,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator 
-        initialRouteName="Home" 
+        initialRouteName="What should I ดู" 
         screenOptions={{
           headerStyle: { backgroundColor: '#6200EE' },
           headerTintColor: '#fff',
