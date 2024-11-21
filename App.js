@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import * as Font from 'expo-font';
 import AppLoading from 'expo-app-loading'; 
 import HomeScreen from './screens/HomeScreen';
+import MovieDetailScreen from './screens/MovieDetailScreen';
 
 const Stack = createStackNavigator();
 
@@ -41,6 +42,10 @@ export default function App() {
           component={HomeScreen}
           options={{ title: 'What Should I ดู' }}
         />
+        <Stack.Screen 
+          name="MovieDetail" 
+          component={MovieDetailScreen} 
+          />
       </Stack.Navigator>
     </NavigationContainer>
   );

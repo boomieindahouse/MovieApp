@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text, Image, TouchableOpacity } from 'react-native';
+import { TouchableOpacity, Text, Image } from 'react-native';
 import { styles } from '../styles/styles';
 
-const MovieCard = ({ movie }) => {
+const MovieCard = ({ movie, onPress }) => {
   return (
-    <TouchableOpacity style={styles.movieCard}>
+    <TouchableOpacity style={styles.movieCard} onPress={onPress}>
       <Image
         source={{ uri: `https://image.tmdb.org/t/p/w500${movie.poster_path}` }}
         style={styles.movieImage}
