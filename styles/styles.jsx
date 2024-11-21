@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 16,
+    fontFamily: 'Poppins_600SemiBold',
   },
   movieCard: {
     flex: 1,
@@ -31,6 +32,7 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 8,
     textAlign: 'center',
+    fontFamily: 'Poppins_600SemiBold',
   },
   row: {
     justifyContent: 'space-between',
