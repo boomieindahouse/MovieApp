@@ -8,10 +8,11 @@ const movieDetailStyles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   movieImage: {
-    width: '100%',
-    height: 300,
+    width: '80%',
+    height: 500,
     borderRadius: 8,
     marginBottom: 16,
+    alignSelf: 'center',
   },
   movieTitle: {
     fontSize: 24,
