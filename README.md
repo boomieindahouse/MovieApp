@@ -59,7 +59,7 @@ npx react-native run-android
 ```
 TMDB_API_KEY=your_api_key_here
 ```
--Use the API key in your code:
+- Use the API key in your code:
 ```bash
 const TMDB_BASE_URL = 'https://api.themoviedb.org/3';
 const API_KEY = process.env.TMDB_API_KEY;
