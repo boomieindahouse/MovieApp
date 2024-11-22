@@ -19,7 +19,7 @@ An app for movie recommendations and categorizing movies by genre using React Na
 - **Styling**: StyleSheet
 -->
 ---
-<!-- 
+
 ## Screenshots 📱
 1. **Home Screen**  
    ![Home Screen](./screenshots/home.png)
@@ -31,7 +31,6 @@ An app for movie recommendations and categorizing movies by genre using React Na
    ![Detail Screen](./screenshots/detail.png)
 
 ---
--->
 ## Installation 🛠️
 
 ### **1. Clone Repository**
