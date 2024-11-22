@@ -44,11 +44,11 @@ cd your-repo-name
 npm install
 ```
 ### **3. Run the App**
-## For iOS
+- For iOS
 ```bash
 npx react-native run-ios
 ```
-## For andriod
+- For andriod
 ```bash
 npx react-native run-android
 ```
