@@ -22,7 +22,7 @@ An app for movie recommendations and categorizing movies by genre using React Na
 
 ## Screenshots 📱
 1. **Home Screen**  
-   ![Home Screen](./screenshots/home.png)
+   <img src="./screenshots/home.png" alt="Home Screen" width="400"/>
 
 2. **Genre Movies Screen**  
    ![Genre Screen](./screenshots/genre.png)
