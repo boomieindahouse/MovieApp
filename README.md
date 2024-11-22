@@ -8,7 +8,7 @@ An app for movie recommendations and categorizing movies by genre using React Na
 - Display **Popular Movies** on the home screen
 - Select a movie **Genre** and display movies in that genre
 - View detailed information about each movie, such as synopsis, ratings, and more
-
+<!--
 ---
 
 ## Tech Stack 🛠️
@@ -17,7 +17,7 @@ An app for movie recommendations and categorizing movies by genre using React Na
 - **API**: TMDB (The Movie Database) API
 - **State Management**: useState, useEffect
 - **Styling**: StyleSheet
-
+-->
 ---
 <!-- 
 ## Screenshots 📱
