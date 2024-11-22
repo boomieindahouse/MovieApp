@@ -7,7 +7,7 @@ const routes = [
   {
     name: ROUTES.HOME,
     component: HomeScreen,
-    options: { title: 'Popular Movies' },
+    options: { title: 'What Should I ดู' },
   },
   {
     name: ROUTES.GENRE,

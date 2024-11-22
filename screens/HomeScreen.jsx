@@ -61,8 +61,8 @@ const HomeScreen = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
-            <Text style={globalStyles.headerText}>Popular Movies</Text>
 
+            <Text style={globalStyles.headerText}>Select Genre</Text>
             {/* Dropdown for Genre selection */}
             <ModalDropdown
                 options={['All Movies', ...genres.map((genre) => genre.name)]} // Display genres in dropdown
@@ -83,6 +83,7 @@ const HomeScreen = ({ navigation }) => {
                 textStyle={styles.dropdownTextStyle}
                 dropdownStyle={styles.modalDropdown}
             />
+            <Text style={globalStyles.headerText}>Popular Movies</Text>
 
             <FlatList
                 data={popularMovies}
