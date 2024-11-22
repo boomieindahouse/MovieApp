@@ -38,3 +38,7 @@ An app for movie recommendations and categorizing movies by genre using React Na
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+### **2. Install Dependencies**
+```bash
+npm install
