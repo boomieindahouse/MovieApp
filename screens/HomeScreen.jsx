@@ -41,7 +41,7 @@ const HomeScreen = ({ navigation }) => {
                 setIsLoading(false);
             });
     }, []);
-    
+
 
     if (isLoading) {
         return (
@@ -88,17 +88,16 @@ const HomeScreen = ({ navigation }) => {
                 data={popularMovies}
                 renderItem={({ item }) => (
                     <MovieCard
-                        key={item.id} // Set the key for each movie item
                         movie={item}
                         onPress={() =>
                             navigation.navigate('MovieDetail', {
                                 movieId: item.id,
-                                movieTitle: item.title, 
+                                movieTitle: item.title,
                             })
                         }
                     />
                 )}
-                keyExtractor={(item) => item.id.toString()}
+                keyExtractor={(item) => item.id.toString()} // จัดการ key ในระดับ FlatList
                 numColumns={2}
                 columnWrapperStyle={styles.row}
             />
