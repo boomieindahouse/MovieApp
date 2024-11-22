@@ -44,7 +44,7 @@ const GenreMovieScreen = ({ route, navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={globalStyles.headerText}>{genreName} Movies</Text>
+      <Text style={globalStyles.headerText}>Select Movies</Text>
 
       <FlatList
         data={movies}
