@@ -19,19 +19,17 @@ An app for movie recommendations and categorizing movies by genre using React Na
 - **Styling**: StyleSheet
 -->
 ---
-<!-- 
+
 ## Screenshots 📱
-1. **Home Screen**  
-   ![Home Screen](./screenshots/home.png)
+<div style="display: flex; justify-content: space-between;">
 
-2. **Genre Movies Screen**  
-   ![Genre Screen](./screenshots/genre.png)
+  <img src="./screenshots/home.png" alt="Home Screen" width="200"/>
+  <img src="./screenshots/genre.png" alt="Genre Screen" width="200"/>
+  <img src="./screenshots/detail.png" alt="Detail Screen" width="200"/>
 
-3. **Movie Detail Screen**  
-   ![Detail Screen](./screenshots/detail.png)
+</div>
 
 ---
--->
 ## Installation 🛠️
 
 ### **1. Clone Repository**
